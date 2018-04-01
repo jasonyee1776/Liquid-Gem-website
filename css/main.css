@@ -1,0 +1,295 @@
+* {
+	margin: 0;
+	background: #ececec;
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+/*top nav */
+
+nav {
+    padding: 40px 0;
+	margin: auto 0;
+}
+
+/*gem icon*/
+.fa-gem {
+	margin: 0 0 0 20px;
+}
+
+/*text left nav/*/
+
+nav p {
+	display: inline-block;
+	font-family: 'Great Vibes', cursive;
+	margin: 13px 0 0 3px;
+    font-size: 33px;
+}
+
+/*gem icon*/
+.fa-gem {
+	margin: 0 0 0 20px;
+	font-size: 1.2em;
+}
+
+
+ul.right-nav {
+	list-style: none;
+	float: right;
+    margin: 13px 20px 0 0;
+}
+
+li {
+	display: inline-block;
+    padding: 0 26px;	
+    text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+
+}
+
+/*line*/
+div.line {
+	width: 95%;
+	height: 2px;
+	margin: 0 auto;
+	background: #b9b9b9;
+}
+
+/*container*/
+
+section {
+	text-align: center;
+    margin: 60px 5px;
+}
+
+
+/*quote*/
+.quote {
+	text-align: center;
+	margin: 0 0 50px 0;
+
+}
+
+/*vertical spacing between quotes*/
+.quote > p {
+	line-height: 2em;
+}
+
+#quote-1 {
+	font-size: 22px;
+	letter-spacing: 2px;
+	font-weight: 100}
+
+.red {
+	color: #e69da2;
+}
+#quote-2 {
+	font-size: 15px;
+	letter-spacing: 1px;
+
+}
+
+
+/*image*/
+#sunset {
+	width: 98%;
+	height: 15%;
+	border-radius: 25px;
+}
+
+.left-content,
+.right-content {
+	display: inline-block;
+	width: 50%;
+	margin: 30px 0;
+}
+
+.left-content {
+	float: left;
+	text-align: left;	
+}
+
+.right-content {
+	float: right;
+	text-align: left;		
+}
+
+div h5 {
+	color: #e69da2;
+	font-family: 'Great Vibes', cursive;
+	text-align: center;
+    font-size: 27px;
+}
+
+div.right-content p,
+div.left-content p {
+	padding: 0 40px;
+	margin: 20px 0;
+	line-height: 1.4em;
+}
+
+/*image grid with caption*/
+.figure {
+	display: inline-block;
+    width: 9%;
+    margin: 10px 50px;
+    }
+
+.figure img {
+	width: 180px;
+	height: 140px;
+	display: inline-block;
+	position: relative;
+	border-top-right-radius: 10px;
+    border-top-left-radius: 10px;	
+}
+
+.figure p {
+	position: absolute;
+	background: white;
+	display: block;
+    margin: -7px 0 0px 0;
+    line-height: 1.4em;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;	
+    width: 180px;
+}
+
+.red-caption {
+	color: #e69da2;
+	background: white;
+}
+
+/*whole article*/
+article {
+	display: block;
+	margin: 0 60px 0 0;
+}
+/*top seciton of pictures in image grid*/
+
+.top-article {
+	width: 100%;
+    text-align: center;
+    display: block;
+}
+
+/*bottom seciton of pictures in image grid*/
+.bottom-article {
+	width: 100%;
+    text-align: center;
+    margin: 40px 0;
+    display: block;
+
+}
+
+/*Thank you message */
+
+body > h2 {
+	text-align: center;
+    margin: 90px 0 35px 0;
+    font-family: 'Great Vibes', cursive;
+
+}
+
+
+
+/* entire footer element*/
+
+footer#bottom {
+	background: #2d2d2d;
+	width: 100%;
+    height: 430px;
+    position: absolute;
+
+}
+
+
+/*contact information area of footer */
+
+.left-footer {
+	width: 0;
+	margin: 100px 0 0 0;
+	display: block;
+}
+
+
+
+.left-footer h2 {
+	margin: 0 0 15px 20px;
+	font-family: 'Great Vibes', cursive;
+
+}
+
+.left-footer button {
+	background: #2d2d2d;	
+	color: #ececec;
+	border: none;
+    margin: 13px 0 29px 20px;
+}
+
+input {
+	display: block;
+	margin: 15px 0 15px 20px;
+    padding: 4px 0;
+	width: 633px;
+}
+
+
+::placeholder {
+	color: #2d2d2d;
+}
+
+textarea {
+	margin: 0 0 0 19px;
+	width: 633px;
+	height: 120px;
+}
+
+#message {
+    height: 104px;
+	width: 633px;
+	padding: 0 0 20px 0;
+}
+
+#message::placeholder {
+	position: relative;
+	bottom: 38px;
+}
+
+#message::type=text
+
+/*submit button on footer*/
+
+/*SUBMIT BUTTON WILL NOT STYLE FOR SOME REASON */
+
+#submit {
+	background: #2d2d2d;	
+	color: #ececec;
+	border: none;
+	margin: 7px 0;
+}
+
+/*icons on the right side of the footer */
+
+.right-footer {
+	float: right;
+    margin: -200px 20px 0 0;
+	background:#2d2d2d;
+}
+
+.fa-twitter-square,
+.fa-facebook-square,
+.fa-youtube-square,
+.fa-google {
+	display: inline-block;
+	color: #e69da2;
+	border-radius: 50%;
+	background:#2d2d2d;
+	font-size: 2em;
+	padding: 0 12px;
+
+}
