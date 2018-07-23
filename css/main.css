@@ -260,11 +260,8 @@ textarea {
 	bottom: 38px;
 }
 
-#message::type=text
 
 /*submit button on footer*/
-
-/*SUBMIT BUTTON WILL NOT STYLE FOR SOME REASON */
 
 #submit {
 	background: #2d2d2d;	
@@ -292,4 +289,26 @@ textarea {
 	font-size: 2em;
 	padding: 0 12px;
 
+}
+
+/* media queries */
+@media screen and (max-width: 902px) {
+	.right-footer {
+		float: right;
+		margin: -34px 20px 0 0;
+	}
+}
+
+@media screen and (max-width: 673px) {
+	input,
+	textarea {
+		width: 395px;
+	}
+}
+
+@media screen and (max-width: 439px) {
+	input,
+	textarea {
+		width: 295px;
+	}
 }
